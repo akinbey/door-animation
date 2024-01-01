@@ -1,0 +1,33 @@
+.door-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+  .door {
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    transform-origin: left center;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .door.open {
+    transform: rotateY(110deg);
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
